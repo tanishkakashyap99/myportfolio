@@ -1,0 +1,71 @@
+body{
+
+	display: block;
+}
+.nav{
+
+    width: 100vw;
+	height: 20vh;
+	background-image: url(../images/img4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid;
+	border-color: black;
+}
+.nav a{
+
+	font-size: 40px;
+	font-family: algerian;
+    transition: 300ms;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	margin: 30px;
+    line-height: 160px;
+    word-spacing: 10px;
+    border: 
+
+ }
+.content{
+
+	margin-top: 0px;
+    width: 100vw;
+	height: 80vh;
+	display: inline-block;
+	background-image: url(../images/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.content1{
+	
+	width: 25vw;
+	height: 50vh;
+    background-image: url(../images/img3.jpg);
+    background-size: 400px 400px ; 
+    margin-top: 90px;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+	 float:left; 
+	background-color: yellow;
+	border: solid;
+	border-color: black;
+	border-width: 4px;
+
+}
+.content2{
+
+	width: 50vw;
+	height: 80vh;
+	margin-top: 140px;
+	margin-right: 40px;
+	 float:right;
+	
+}
+a.active, .nav a:hover {
+
+	background-color: white;
+	color: black;
+	width: 100%
+}
